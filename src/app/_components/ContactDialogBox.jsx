@@ -27,7 +27,7 @@ const ContactDialogContent = memo(() => (
                 <div>
                     <h4 className="text-sm font-medium leading-none mb-1">Address</h4>
                     <p className="text-sm text-gray-700">
-                        Shivaji College, University of Delhi, Delhi, 110027
+                        Department of Computer Science, Shivaji College, University of Delhi, Delhi, 110027
                     </p>
                 </div>
             </div>

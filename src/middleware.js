@@ -5,8 +5,8 @@ const tokenCache = new Map();
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 
 // Admin credentials (in production, these should be in environment variables)
-const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD
 
 export function middleware(request) {
     // Check if the request is for an admin route
